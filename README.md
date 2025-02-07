@@ -124,3 +124,12 @@ These structured outputs serve as the foundation for the recommendation and vali
 2. **FastAPI Service** calls the **Recommender** to generate the recommendations.
 3. **Recommender** returns the recommendations to the **FastAPI Service**.
 4. **FastAPI Service** sends the list of recommended learning object paths back to the **Moodle Plugin**.
+
+##Moodle plugin screenshots
+
+The following figure shows the configurations required to get the recommender up and running in Moodle:
+![Configuration Settings of the plugin](/imgs/recommender_settings_interface.png)
+
+The following figure shows the block with personalized recommendations for the user within a Moodle course:
+![Recommender block](/imgs/recommender_settings_interface.png)
+
