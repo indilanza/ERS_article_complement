@@ -131,5 +131,5 @@ The following figure shows the configurations required to get the recommender up
 ![Configuration Settings of the plugin](/imgs/recommender_settings_interface.png)
 
 The following figure shows the block with personalized recommendations for the user within a Moodle course:
-![Recommender block](/imgs/recommender_settings_interface.png)
+![Recommender block](/imgs/moodle_recommender_block_interface.png)
 
