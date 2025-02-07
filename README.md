@@ -44,7 +44,7 @@ The preprocessed data is saved in structured fact tables, aligning with the defi
 
 These structured outputs serve as the foundation for the recommendation and validation scripts, ensuring adaptability and ease of implementation for a wide range of educational environments.
 
-## Class Diagram
+## Class Diagram Example
 
 ![Class Diagram](/imgs/uml_classes.png)
 
