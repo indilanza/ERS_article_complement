@@ -37,6 +37,20 @@ The preprocessed data is saved in structured fact tables, aligning with the defi
 | **Learning objects interaction logs** | Records sequential "rating" (engagement) values for each user-resource interaction. |
 | **Learning objects data**          | Provides metadata for learning objects, including titles and categories.      |
 
+
+# Sample Structure of Anonymized Moodle Log Data
+
+The following table shows a realistic excerpt of the anonymized log data retrieved from Moodle using a web service stream. Each row captures a student interaction with a learning object, including metadata such as timestamps, user identifiers, and the specific Moodle component involved in the event.
+
+| timecreated | userid | contextid | contextinstanceid | contextlevel | component     | eventname                                  | other              |
+|-------------|--------|------------|--------------------|---------------|--------------|--------------------------------------------|---------------------|
+| 1725287486  | 12     | 128        | 62                 | 70            | mod_feedback | \mod_feedback\event\course_module_viewed | {"anonymous":"1"} |
+| 1725287200  | 13     | 128        | 62                 | 70            | mod_feedback | \mod_feedback\event\course_module_viewed | {"anonymous":"1"} |
+| 1725287217  | 12     | 15         | 1                  | 70            | mod_forum    | \mod_forum\event\course_module_viewed    | null               |
+| 1725287172  | 13     | 126        | 60                 | 70            | mod_feedback | \mod_feedback\event\course_module_viewed | {"anonymous":"1"} |
+| 1725287155  | 13     | 19         | 5                  | 70            | mod_feedback | \mod_feedback\event\course_module_viewed | {"anonymous":"1"} |
+
+
 ### Key Advantages
 1. **Scalability:** The system relies solely on Moodle log data, making it easily implementable across institutions.
 2. **Simplicity:** The straightforward preprocessing ensures minimal technical requirements.
